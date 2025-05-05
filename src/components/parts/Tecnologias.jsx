@@ -19,7 +19,7 @@ function Tecnologias() {
         <p className="text-4xl pb-5 ">
           Habilidades e ferramentas que domino e estudo.
         </p>
-        <div className="flex flex-row flex-wrap justify-center gap-8 w-3/6 justify-self-center">
+        <div className="flex flex-row flex-wrap justify-center gap-8 md:w-3/6 justify-self-center">
           <div className="text-6xl border-1 rounded-full p-3 hover:scale-120 transition-all">
             <FaPython />
           </div>

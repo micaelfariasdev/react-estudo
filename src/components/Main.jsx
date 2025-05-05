@@ -9,7 +9,6 @@ function Main() {
     <main className="bg-blue-950 text-white flex justify-center flex-col items-center">
       <Apresentacao />
       <Servicos />
-      {/* <Sobre /> */}
       <Tecnologias />
       <Projetos />
     </main>

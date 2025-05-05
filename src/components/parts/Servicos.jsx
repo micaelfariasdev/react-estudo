@@ -7,7 +7,7 @@ function Servicos(){
           Meus Serviços
         </h2>
 
-        <div className="relative max-w-300 mx-auto flex flex-col gap-24 before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-1 before:bg-[#2c2c3f]">
+        <div className="px-3 relative max-w-300 mx-auto flex flex-col gap-24 before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-1 before:bg-[#2c2c3f]">
           <div className="relative flex justify-start">
             <div className="relative w-full max-w-3/5  bg-[#151526] p-6 rounded-2xl border border-[#2c2c3f] z-10 hover:scale-120 transition-all ">
               <h3 className="text-xl font-semibold mb-2">

@@ -4,10 +4,10 @@ function Apresentacao(){
     return (
         <div className="border-b-2 border-[#2c2c3f] w-full items-center flex justify-center bg-[#0a0a1a] bg-gradient-to-br from-[#151549] via-[#121224] to-[#0f0f1a]">
         <article className="max-w-300 w-full px-10 py-30 gap-3 flex flex-col">
-          <h1 className="w-1/2 text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-violet-400 to-white">
+          <h1 className="w-full text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-violet-400 to-white">
             Desenvolvedor Full-Stack
           </h1>
-          <p className="w-1/4">
+          <p className="w-2/4">
             Eu sou Micael Farias, apaixonado por tecnologia, com o sonho de um
             dia me tornar um grande desenvolvedor.
           </p>
