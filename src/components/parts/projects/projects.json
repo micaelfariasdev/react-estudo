@@ -1,0 +1,27 @@
+{
+    "cliqq": {
+        "id": "1",
+        "nome": "Cliqq",
+        "tecnologia": [
+            "python",
+            "react",
+            "tailwind",
+            "django"
+        ],
+        "foto": [
+            "/public/img/projects/cliqq/1.png",
+            "/public/img/projects/cliqq/2.png",
+            "/public/img/projects/cliqq/3.png",
+            "/public/img/projects/cliqq/4.png",
+            "/public/img/projects/cliqq/5.png",
+            "/public/img/projects/cliqq/6.png"
+        ],
+        "repositorios": [
+            "https://github.com/micaelfariasdev/cliqq-front/tree/dev",
+            "https://github.com/micaelfariasdev/cliqq/tree/dev"
+        ],
+        "sobre": "Rede social para compartilhamento de fotos (aplicação web). Opção de registar, login, enviar foto, curtida e view. Front feito com react e Back com Django Rest Framework.",
+        "status": "Abandonado",
+        "site": "https://cliqq.micaelfarias.com/"
+    }
+}
