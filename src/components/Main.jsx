@@ -6,7 +6,7 @@ import Projetos from "./parts/Projetos";
 
 function Main() {
   return (
-    <main className="bg-blue-950 text-white flex justify-center flex-col items-center">
+    <main className="bg-blue-950 text-white flex justify-center flex-col items-center mt-25">
       <Apresentacao />
       <Servicos />
       <Tecnologias />

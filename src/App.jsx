@@ -1,6 +1,7 @@
 import DefaultProject from './components/parts/projects/DefaultProject.jsx'
 import Main from './components/Main.jsx'
 import Header from './components/Header.jsx'
+import NotFound from './components/NotFound.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,8 +9,8 @@ import {
 
 
 const router = createBrowserRouter([
-  { path: "/", element: <Main />, },
-  { path: "/projetos/:name", element: <DefaultProject />, },
+  { path: "/", element: <Main />, errorElement: <NotFound /> },
+  { path: "/projetos/:name", element: <DefaultProject />, errorElement:<NotFound /> },
 ]);
 
 
@@ -18,10 +19,10 @@ const router = createBrowserRouter([
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <RouterProvider router={router} />
-    </>
+    </div>
   )
 }
 

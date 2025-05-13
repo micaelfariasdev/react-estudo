@@ -1,27 +1,54 @@
-{
-    "cliqq": {
-        "id": "1",
-        "nome": "Cliqq",
-        "tecnologia": [
-            "python",
-            "react",
-            "tailwind",
-            "django"
-        ],
-        "foto": [
-            "/public/img/projects/cliqq/1.png",
-            "/public/img/projects/cliqq/2.png",
-            "/public/img/projects/cliqq/3.png",
-            "/public/img/projects/cliqq/4.png",
-            "/public/img/projects/cliqq/5.png",
-            "/public/img/projects/cliqq/6.png"
-        ],
-        "repositorios": [
-            "https://github.com/micaelfariasdev/cliqq-front/tree/dev",
-            "https://github.com/micaelfariasdev/cliqq/tree/dev"
-        ],
-        "sobre": "Rede social para compartilhamento de fotos (aplicação web). Opção de registar, login, enviar foto, curtida e view. Front feito com react e Back com Django Rest Framework.",
-        "status": "Abandonado",
-        "site": "https://cliqq.micaelfarias.com/"
+[
+    {
+        "cliqq": {
+            "id": "1",
+            "nome": "Cliqq",
+            "tecnologia": [
+                "python",
+                "react",
+                "tailwindcss",
+                "django"
+            ],
+            "foto": [
+                "/public/img/projects/cliqq/1.png",
+                "/public/img/projects/cliqq/2.png",
+                "/public/img/projects/cliqq/3.png",
+                "/public/img/projects/cliqq/4.png",
+                "/public/img/projects/cliqq/5.png",
+                "/public/img/projects/cliqq/6.png"
+            ],
+            "repositorios": [
+                "https://github.com/micaelfariasdev/cliqq-front/tree/dev",
+                "https://github.com/micaelfariasdev/cliqq/tree/dev"
+            ],
+            "sobre": "Rede social para compartilhamento de fotos (aplicação web). Permite cadastro, login, envio de fotos, curtidas, contagem de visualizações e operações completas de CRUD nas fotos. Front-end desenvolvido em React e back-end com Django REST Framework.",
+            "status": "Abandonado",
+            "site": "https://cliqq.micaelfarias.com/"
+        },
+        "vetor": {
+            "id": "2",
+            "nome": "Vetor Construções",
+            "tecnologia": [
+                "python",
+                "react",
+                "tailwindcss",
+                "django"
+            ],
+            "foto": [
+                "/public/img/projects/vetor/1.png",
+                "/public/img/projects/vetor/2.png",
+                "/public/img/projects/vetor/3.png",
+                "/public/img/projects/vetor/4.png",
+                "/public/img/projects/vetor/5.png",
+                "/public/img/projects/vetor/6.png"
+            ],
+            "repositorios": [
+                "https://github.com/micaelfariasdev/vetor",
+                "https://github.com/micaelfariasdev/vetor-api"
+            ],
+            "sobre": "Iniciei o desenvolvimento de um sistema de gestão de funcionários para uma empresa, mas o projeto foi descontinuado nas fases iniciais. Apenas uma funcionalidade chegou a ser implementada: a geração de relatórios de gastos mensais, com base em planilhas exportadas de um sistema pré-existente.",
+            "status": "Abandonado",
+            "site": "https://vetor.micaelfarias.com/"
+        }
     }
-}
+]
