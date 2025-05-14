@@ -38,7 +38,6 @@ export default function DefaultProject() {
                 "bg-[#0a0a1a] bg-gradient-to-tl from-[#151549] via-[#121224] to-[#0f0f1a] " +
                 "flex justify-center text-white"}>
             <div
-                id='projetos'
                 className="h-fit w-full grid grid-cols-[4fr_1fr] grid-rows-[max-content_max-content-auto] gap-4 max-w-300">
                 <div className="w-full h-fit text-sm text-white/60 col-span-2 pt-3">
                     {returnsPath.map((path, i) => {

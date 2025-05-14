@@ -9,7 +9,7 @@ function Header() {
                 </a>
                 <nav>
                     <ul className="flex gap-5">
-                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="/projetos">Projetos</a></li>
                     </ul>
                 </nav>
             </div>

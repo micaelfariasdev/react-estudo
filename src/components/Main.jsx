@@ -1,8 +1,7 @@
 import Apresentacao from "./parts/Apresentacao";
 import Tecnologias from "./parts/Tecnologias";
 import Servicos from "./parts/Servicos";
-import Sobre from "./parts/Sobre";
-import Projetos from "./parts/Projetos";
+import {Projetos} from "./parts/Projetos";
 
 function Main() {
   return (

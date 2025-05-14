@@ -2,6 +2,7 @@
     {
         "cliqq": {
             "id": "1",
+            "slug":"cliqq",
             "nome": "Cliqq",
             "tecnologia": [
                 "python",
@@ -27,6 +28,7 @@
         },
         "vetor": {
             "id": "2",
+            "slug":"vetor",
             "nome": "Vetor Construções",
             "tecnologia": [
                 "python",
