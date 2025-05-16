@@ -1,56 +1,92 @@
 [
-    {
-        "cliqq": {
-            "id": "1",
-            "slug":"cliqq",
-            "nome": "Cliqq",
-            "tecnologia": [
-                "python",
-                "react",
-                "tailwindcss",
-                "django"
-            ],
-            "foto": [
-                "/img/projects/cliqq/1.png",
-                "/img/projects/cliqq/2.png",
-                "/img/projects/cliqq/3.png",
-                "/img/projects/cliqq/4.png",
-                "/img/projects/cliqq/5.png",
-                "/img/projects/cliqq/6.png"
-            ],
-            "repositorios": [
-                "https://github.com/micaelfariasdev/cliqq-front/tree/dev",
-                "https://github.com/micaelfariasdev/cliqq/tree/dev"
-            ],
-            "sobre": "Rede social para compartilhamento de fotos (aplicação web). Permite cadastro, login, envio de fotos, curtidas, contagem de visualizações e operações completas de CRUD nas fotos. Front-end desenvolvido em React e back-end com Django REST Framework.",
-            "status": "Abandonado",
-            "site": "https://cliqq.micaelfarias.com/"
-        },
-        "vetor": {
-            "id": "2",
-            "slug":"vetor",
-            "nome": "Vetor Construções",
-            "tecnologia": [
-                "python",
-                "react",
-                "tailwindcss",
-                "django"
-            ],
-            "foto": [
-                "/img/projects/vetor/1.png",
-                "/img/projects/vetor/2.png",
-                "/img/projects/vetor/3.png",
-                "/img/projects/vetor/4.png",
-                "/img/projects/vetor/5.png",
-                "/img/projects/vetor/6.png"
-            ],
-            "repositorios": [
-                "https://github.com/micaelfariasdev/vetor",
-                "https://github.com/micaelfariasdev/vetor-api"
-            ],
-            "sobre": "Iniciei o desenvolvimento de um sistema de gestão de funcionários para uma empresa, mas o projeto foi descontinuado nas fases iniciais. Apenas uma funcionalidade chegou a ser implementada: a geração de relatórios de gastos mensais, com base em planilhas exportadas de um sistema pré-existente.",
-            "status": "Abandonado",
-            "site": "https://vetor.micaelfarias.com/"
-        }
+  {
+    "cliqq": {
+      "id": "1",
+      "slug": "cliqq",
+      "nome": "Cliqq",
+      "tecnologia": ["python", "react", "tailwindCss", "django", "JavaScript"],
+      "foto": [
+        "/img/projects/cliqq/1.png",
+        "/img/projects/cliqq/2.png",
+        "/img/projects/cliqq/3.png",
+        "/img/projects/cliqq/4.png",
+        "/img/projects/cliqq/5.png",
+        "/img/projects/cliqq/6.png"
+      ],
+      "repositorios": [
+        "https://github.com/micaelfariasdev/cliqq-front/tree/dev",
+        "https://github.com/micaelfariasdev/cliqq/tree/dev"
+      ],
+      "sobre": "Rede social para compartilhamento de fotos (aplicação web). Permite cadastro, login, envio de fotos, curtidas, contagem de visualizações e operações completas de CRUD nas fotos. Front-end desenvolvido em React e back-end com Django REST Framework.",
+      "status": "Abandonado",
+      "site": "https://cliqq.micaelfarias.com/"
+    },
+    "vetor": {
+      "id": "2",
+      "slug": "vetor",
+      "nome": "Vetor Construções",
+      "tecnologia": ["python", "react", "tailwindCss", "django", "JavaScript"],
+      "foto": [
+        "/img/projects/vetor/1.png",
+        "/img/projects/vetor/2.png",
+        "/img/projects/vetor/3.png",
+        "/img/projects/vetor/4.png",
+        "/img/projects/vetor/5.png",
+        "/img/projects/vetor/6.png"
+      ],
+      "repositorios": [
+        "https://github.com/micaelfariasdev/vetor",
+        "https://github.com/micaelfariasdev/vetor-api"
+      ],
+      "sobre": "Iniciei o desenvolvimento de um sistema de gestão de funcionários para uma empresa, mas o projeto foi descontinuado nas fases iniciais. Apenas uma funcionalidade chegou a ser implementada: a geração de relatórios de gastos mensais, com base em planilhas exportadas de um sistema pré-existente.",
+      "status": "Abandonado",
+      "site": "https://vetor.micaelfarias.com/"
+    },
+    "what": {
+      "id": "2",
+      "slug": "what",
+      "nome": "What.js",
+      "tecnologia": ["react", "tailwindCss", "JavaScript"],
+      "foto": ["/img/projects/what/1.png", "/img/projects/what/2.png"],
+      "repositorios": ["https://github.com/micaelfariasdev/termo-clone"],
+      "sobre": "O site What é uma aplicação web full-stack desenvolvida com front-end em React (possivelmente usando Next.js) e back-end em Python/Django. A interface apresenta um design moderno e responsivo, com navegação via menu e componentes interativos, sugerindo páginas ou seções de conteúdo dinâmico (como dashboards ou formulários de consulta). No back-end, há APIs REST e um painel administrativo customizado em Django, incluindo recursos de autenticação e gerenciamento de dados. Em conjunto, o projeto integra tecnologias atuais de front-end e back-end para oferecer um sistema web interativo e funcional.",
+      "status": "Concluído",
+      "site": "https://what.micaelfarias.com/"
+    },
+    "teste-nivelamento": {
+      "id": "4",
+      "slug": "teste-nivelamento",
+      "nome": "Teste de Nivelamento",
+      "tecnologia": ["Python", "Flask", "Vuedotjs", "MySQL", "JavaScript"],
+      "foto": [],
+      "repositorios": [
+        "https://github.com/micaelfariasdev/teste-de-nivelamento"
+      ],
+      "sobre": "Repositório com a solução completa de um desafio de nivelamento, englobando várias etapas: coleta de dados via web scraping de arquivos PDF, extração e transformação de dados em CSV, criação de banco de dados MySQL com scripts SQL e implementação de uma API em Flask com interface em Vuedotjs. Cada etapa (scraping, ETL, banco de dados e API) está documentada com scripts específicos. O projeto foi totalmente implementado em Python (scripts de processamento e backend Flask) e JavaScript (front-end Vuedotjs), e está concluído com todas as funcionalidades descritas.",
+      "status": "Concluído",
+      "site": ""
+    },
+    "estudo-flask": {
+      "id": "5",
+      "slug": "estudo-flask",
+      "nome": "Estudo Flask",
+      "tecnologia": ["Python", "Flask", "Html5", "Css3", "JavaScript"],
+      "foto": [],
+      "repositorios": ["https://github.com/micaelfariasdev/estudo-flask"],
+      "sobre": "Aplicação web demonstrativa desenvolvida com o framework Flask. Mostra integração front-end/back-end usando rotas Flask e templates Html5/Css3, incluindo formulários para inserção e edição de dados e operações básicas de CRUD. O projeto exemplifica gerenciamento de banco de dados (por exemplo SQLite ou ORM) via Python e atualizações dinâmicas de interface com JavaScript. Trata-se de um protótipo finalizado para ilustrar conceitos de desenvolvimento web full-stack com Flask.",
+      "status": "Concluído",
+      "site": ""
+    },
+    "card-kingsleague": {
+      "id": "6",
+      "slug": "card-kingsleague",
+      "nome": "Card Kingsleague",
+      "tecnologia": ["JavaScript", "Python", "Html5", "Css3"],
+      "foto": [],
+      "repositorios": ["https://github.com/micaelfariasdev/card-kingsleague"],
+      "sobre": "Ferramenta web interativa que permite criar cartas personalizadas de jogadores da \"Kings League\" (liga de futebol fictícia). O front-end em Html5/Css3/JavaScript possibilita ao usuário inserir atributos e visualizar uma carta gerada dinamicamente. Há componentes em Python para processamento auxiliar dos dados (por exemplo, geração de imagens ou estatísticas). É um projeto de tema original e caráter lúdico, concluído como exemplo de integração entre lógica de back-end em Python e interface dinâmica em JavaScript.",
+      "status": "Concluído",
+      "site": ""
     }
+  }
 ]
