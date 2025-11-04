@@ -1,10 +1,15 @@
 [
   {
     "cliqq": {
-      "id": "1",
       "slug": "cliqq",
       "nome": "Cliqq",
-      "tecnologia": ["python", "react", "tailwindCss", "django", "JavaScript"],
+      "tecnologia": [
+        "python",
+        "react",
+        "tailwindCss",
+        "django",
+        "JavaScript"
+      ],
       "foto": [
         "/img/projects/cliqq/1.png",
         "/img/projects/cliqq/2.png",
@@ -22,10 +27,15 @@
       "site": "https://cliqq.micaelfarias.com/"
     },
     "vetor": {
-      "id": "2",
       "slug": "vetor",
       "nome": "Vetor Construções",
-      "tecnologia": ["python", "react", "tailwindCss", "django", "JavaScript"],
+      "tecnologia": [
+        "python",
+        "react",
+        "tailwindCss",
+        "django",
+        "JavaScript"
+      ],
       "foto": [
         "/img/projects/vetor/1.png",
         "/img/projects/vetor/2.png",
@@ -43,48 +53,81 @@
       "site": "https://vetor.micaelfarias.com/"
     },
     "what": {
-      "id": "2",
       "slug": "what",
       "nome": "What.js",
-      "tecnologia": ["react", "tailwindCss", "JavaScript"],
+      "tecnologia": [
+        "react",
+        "tailwindCss",
+        "JavaScript"
+      ],
       "foto": ["/img/projects/what/1.png", "/img/projects/what/2.png"],
-      "repositorios": ["https://github.com/micaelfariasdev/termo-clone"],
-      "sobre": "O site What é uma aplicação web full-stack desenvolvida com front-end em React (possivelmente usando Next.js) e back-end em Python/Django. A interface apresenta um design moderno e responsivo, com navegação via menu e componentes interativos, sugerindo páginas ou seções de conteúdo dinâmico (como dashboards ou formulários de consulta). No back-end, há APIs REST e um painel administrativo customizado em Django, incluindo recursos de autenticação e gerenciamento de dados. Em conjunto, o projeto integra tecnologias atuais de front-end e back-end para oferecer um sistema web interativo e funcional.",
+      "repositorios": [
+        "https://github.com/micaelfariasdev/termo-clone"
+      ],
+      "sobre": "O site What é uma aplicação web com front-end em React. A interface apresenta um design moderno e responsivo, com navegação via menu e componentes interativos. No final das contas é apenas uma copia do Jogo Web Termo, já existente",
       "status": "Concluído",
       "site": "https://what.micaelfarias.com/"
     },
-    "teste-nivelamento": {
-      "id": "4",
-      "slug": "teste-nivelamento",
-      "nome": "Teste de Nivelamento",
-      "tecnologia": ["Python", "Flask", "Vuedotjs", "MySQL", "JavaScript"],
-      "foto": [],
-      "repositorios": [
-        "https://github.com/micaelfariasdev/teste-de-nivelamento"
+    "farias-joycebordados": {
+      "slug": "farias-joycebordados",
+      "nome": "Joyce Bordados",
+      "tecnologia": [
+        "Python",
+        "Django",
+        "Html5",
+        "Css3",
+        "JavaScript"
       ],
-      "sobre": "Repositório com a solução completa de um desafio de nivelamento, englobando várias etapas: coleta de dados via web scraping de arquivos PDF, extração e transformação de dados em CSV, criação de banco de dados MySQL com scripts SQL e implementação de uma API em Flask com interface em Vuedotjs. Cada etapa (scraping, ETL, banco de dados e API) está documentada com scripts específicos. O projeto foi totalmente implementado em Python (scripts de processamento e backend Flask) e JavaScript (front-end Vuedotjs), e está concluído com todas as funcionalidades descritas.",
+      "foto": [
+        "/img/projects/joycebordados/1.png",
+        "/img/projects/joycebordados/2.png",
+        "/img/projects/joycebordados/3.png"
+      ],
+      "repositorios": [
+        "https://github.com/micaelfariasdev/farias-joycebordados"
+      ],
+      "sobre": "Site desenvolvido para otimizar a gestão de uma empresa de bordados. A plataforma inclui uma área pública onde os clientes podem acompanhar o status de seus pedidos em tempo real. Conta também com um painel administrativo completo, oferecendo dashboard de faturamento, controle de pedidos e gerenciamento de clientes. O sistema integra-se ao WhatsApp para facilitar a comunicação e gera QR Codes para pagamentos de forma rápida e segura.",
       "status": "Concluído",
       "site": ""
     },
-    "estudo-flask": {
-      "id": "5",
-      "slug": "estudo-flask",
-      "nome": "Estudo Flask",
-      "tecnologia": ["Python", "Flask", "Html5", "Css3", "JavaScript"],
-      "foto": [],
-      "repositorios": ["https://github.com/micaelfariasdev/estudo-flask"],
-      "sobre": "Aplicação web demonstrativa desenvolvida com o framework Flask. Mostra integração front-end/back-end usando rotas Flask e templates Html5/Css3, incluindo formulários para inserção e edição de dados e operações básicas de CRUD. O projeto exemplifica gerenciamento de banco de dados (por exemplo SQLite ou ORM) via Python e atualizações dinâmicas de interface com JavaScript. Trata-se de um protótipo finalizado para ilustrar conceitos de desenvolvimento web full-stack com Flask.",
+    "myfood": {
+      "slug": "myfood",
+      "nome": "MyFood",
+      "tecnologia": [
+        "Python",
+        "Flask",
+        "Html5",
+        "Css3",
+        "JavaScript"
+      ],
+      "foto": [
+        "/img/projects/myfood/1.jpeg",
+        "/img/projects/myfood/2.jpeg",
+        "/img/projects/myfood/3.jpeg",
+        "/img/projects/myfood/4.jpeg",
+        "/img/projects/myfood/5.jpeg"
+    ],
+      "repositorios": [
+        "https://github.com/micaelfariasdev/MyFood"
+      ],
+      "sobre": "Plataforma SaaS desenvolvida para restaurantes e lanchonetes, focada na gestão eficiente de pedidos. O sistema permite que os estabelecimentos recebam, organizem e acompanhem os pedidos em tempo real, com painel administrativo intuitivo, controle de status. Solução escalável e responsiva, ideal para otimizar operações e melhorar a experiência do cliente.",
       "status": "Concluído",
       "site": ""
     },
     "card-kingsleague": {
-      "id": "6",
       "slug": "card-kingsleague",
       "nome": "Card Kingsleague",
-      "tecnologia": ["JavaScript", "Python", "Html5", "Css3"],
-      "foto": [],
-      "repositorios": ["https://github.com/micaelfariasdev/card-kingsleague"],
-      "sobre": "Ferramenta web interativa que permite criar cartas personalizadas de jogadores da \"Kings League\" (liga de futebol fictícia). O front-end em Html5/Css3/JavaScript possibilita ao usuário inserir atributos e visualizar uma carta gerada dinamicamente. Há componentes em Python para processamento auxiliar dos dados (por exemplo, geração de imagens ou estatísticas). É um projeto de tema original e caráter lúdico, concluído como exemplo de integração entre lógica de back-end em Python e interface dinâmica em JavaScript.",
+      "tecnologia": [
+        "JavaScript",
+        "Python",
+        "Html5",
+        "Css3"
+      ],
+      "foto": "/img/projects/card-kl/",
+      "repositorios": [
+        "https://github.com/micaelfariasdev/card-kingsleague"
+      ],
+      "sobre": "Ferramenta web interativa que permite criar cartas personalizadas de jogadores da Kings League. O front-end em Html5/Css3/JavaScript possibilita ao usuário inserir atributos e visualizar uma carta gerada dinamicamente. Há componentes em Python para processamento auxiliar dos dados (por exemplo, geração de imagens ou estatísticas). É um projeto de tema original e caráter lúdico, concluído como exemplo de integração entre lógica de back-end em Python e interface dinâmica em JavaScript.",
       "status": "Concluído",
       "site": ""
     }

@@ -1,5 +1,6 @@
 import logo from '../../public/img/logo-completa.svg'
 
+
 function Header() {
     return (
         <header className="bg-gray-900 text-white p-4 h-25 flex justify-center items-center w-full fixed z-99 border-b border-gray-200">

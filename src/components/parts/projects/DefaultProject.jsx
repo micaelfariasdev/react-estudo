@@ -9,6 +9,9 @@ import lgZoom from 'lightgallery/plugins/zoom'
 import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import { FaGithub } from "react-icons/fa";
 import * as SI from "react-icons/si"
+import { FiExternalLink } from 'react-icons/fi'
+import Header from "../../Header";
+
 
 const getIconComponent = (name, size = 24) => {
     const formatted = "Si" + name.toLowerCase().replace(/[^a-z0-9]/g, "").replace(/(^\w)/, c => c.toUpperCase())
@@ -31,8 +34,10 @@ export default function DefaultProject() {
             setReturnsPath(String(window.location.pathname).split('/'))
         }
     }, [])
-    
+
     return (
+        <>
+        <Header />
         <div
             className={"border-b-2 border-[#2c2c3f] h-fit  w-full mt-25 " +
                 "bg-[#0a0a1a] bg-gradient-to-tl from-[#151549] via-[#121224] to-[#0f0f1a] " +
@@ -57,10 +62,19 @@ export default function DefaultProject() {
                         <h2 className='text-2xl font-bold'>Sobre</h2>
                         <p className=''>Nome: {data.nome}</p>
                         <p className=''>Status: {data.status}</p>
-                        <span>
-                            <span className='inline'>Site: </span>
-                            <a href={data.site} className='inline text-[.8rem]'>{data.site}</a>
-                        </span>
+                        {data.site && <div className='flex flex-row'>
+                            <p className='inline'>Site: </p>
+                            <a
+                                href={data.site}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="'flex flex-row inline-flex items-center gap-1 pl-2 text-blue-200 hover:underline"
+                            >
+                                {data.nome}
+                                <FiExternalLink className="w-4 h-4" />
+                            </a>
+
+                        </div>}
                     </div>
                     <div className='w-full h-fit p-4 flex flex-col gap-1 rounded-2xl bg-white/20'>
                         <h2 className='text-2xl font-bold'>Tecnologias</h2>
@@ -76,8 +90,13 @@ export default function DefaultProject() {
                     <div className='w-full h-fit p-4 flex flex-col gap-1 rounded-2xl bg-white/20'>
                         <h2 className='text-2xl font-bold'>Respositorios</h2>
                         {Array.isArray(data.repositorios) && data.repositorios.map((item, index) => (
-                            <a href={item} className=''>
-                                <p className='flex flex-row items-center gap-0.5 pl-4'><FaGithub /> {item.replace('https://github.com/micaelfariasdev', '')}</p>
+                            <a
+                                href={item}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="'flex flex-row inline-flex items-center gap-1 pl-2 text-blue-200 hover:underline"
+                            >
+                                <div className='flex flex-row flex-nowarp items-center gap-0.5 overflow-hidden'><FiExternalLink className="w-4 h-4" /><FaGithub />{item.replace('https://github.com/micaelfariasdev', '')}</div>
                             </a>
                         ))}
 
@@ -120,5 +139,6 @@ export default function DefaultProject() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
